@@ -29,18 +29,19 @@ npm i ngx-awesome-gallery
 
 4. Provide required data (source and conf) in component .ts file. Source is madatory, conf is optional.
   
-    imageData = [{
+         imageData = [{
         link:"../assets/images/first.jpg", //Path to image file.
         description:"Sample description 1"  //Optional description text. 
-      },
+              },
       ..
-    ]
-    
-      conf = {
+       ]
+   
+       conf = {
           "transitionStyle":"scale", 
           "description" : true,  
           "fullWidth" : false
       }
+      
    
 conf properties in detail:
             

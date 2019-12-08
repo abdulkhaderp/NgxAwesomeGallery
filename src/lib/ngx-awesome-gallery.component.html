@@ -1,0 +1,13 @@
+<div class="awesome_gallery_outer_container" >
+    <div class="awesome_gallery_inner_container">  
+         
+         <!--<figure class="" >-->
+         <img src={{imageURL}} class="image_wrapper active" #awesomeGallery [ngStyle]="{'width':defaultConf['fullWidth'] == true ? '100%' : 'auto' }">
+         <!--</figure>-->
+         
+         <div class="awesome_gallery_left_nav" (click)="navigateToLeft()"><fa-icon [icon]="faLeft" class="fa-2x"></fa-icon></div>
+         <div class="awesome_gallery_right_nav" (click)="navigateToRight()"><fa-icon [icon]="faRight" class="fa-2x"></fa-icon></div>
+         <div class="awesome_gallery_desc_block" *ngIf="defaultConf['description'] && imageDesc" #descBlock><span>{{imageDesc}}</span></div>
+    </div>
+   </div>
+   

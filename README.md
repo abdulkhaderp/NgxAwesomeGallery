@@ -32,9 +32,9 @@ npm i ngx-awesome-gallery
          imageData = [{
         link:"../assets/images/first.jpg", //Path to image file.
         description:"Sample description 1"  //Optional description text. 
-              },
-      ..
-       ]
+              },..]
+      
+       
    
        conf = {
           "transitionStyle":"scale", 
